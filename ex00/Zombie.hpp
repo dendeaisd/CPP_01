@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/13 01:53:53 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/13 02:51:26 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/04/13 04:13:53 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,11 @@ class Zombie {
 
  public:
     Zombie(std::string zName);
+    ~Zombie();
     void announce(void);
 };
 
+Zombie* newZombie(std::string name);
+void randomChump(std::string name);
 
 #endif
