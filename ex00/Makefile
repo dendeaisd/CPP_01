@@ -6,7 +6,7 @@
 #    By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/13 01:44:27 by fvoicu            #+#    #+#              #
-#    Updated: 2024/04/13 01:52:55 by fvoicu           ###   ########.fr        #
+#    Updated: 2024/04/13 04:17:49 by fvoicu           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,4 +30,3 @@ fclean	: clean
 re		: fclean all
 
 .PHONY : all clean fclean re
-	

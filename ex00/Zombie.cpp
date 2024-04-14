@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/13 02:05:17 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/13 04:13:41 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/04/13 04:22:13 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,3 @@ Zombie::~Zombie() {
 void Zombie::announce(void) {
   std::cout << name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
-

@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/13 04:21:25 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/13 04:54:44 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/04/14 02:14:04 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 Zombie::Zombie(std::string zName) : name(zName) {}
 
-Zombie::Zombie(){
+Zombie::Zombie() {
   name = "Olaf";
 }
 
