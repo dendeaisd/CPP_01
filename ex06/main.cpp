@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/14 12:15:07 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/14 12:33:31 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/04/14 12:41:27 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int main(int ac, char **av)
 	std::string input = av[1];
 	
 	int idx = -1;
-  for(int i = 0; i < 4; ++i)
+  for(int i = 0; i < 4; i++)
   {
 		if (input == level[i])
 		{
@@ -45,8 +45,9 @@ int main(int ac, char **av)
 			std::cout << std::endl;
 		case 3:
 			harl.complain("ERROR");
+			break;
 		default:
-			harl.complain("[ Probably complaining about insignificant problems ]");
+			std::cout << "[ Probably complaining about insignificant problems ]";
 	}
 	std::cout << std::endl;
   return 0;
