@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/14 10:58:54 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/14 11:01:51 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/04/14 11:23:56 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,9 @@ class Harl {
  void error(void);
  
  public:
-    void complain(std::string level);
+  Harl();
+  void complain(std::string level);
+  ~Harl();
 };
 
 #endif HARL_H
