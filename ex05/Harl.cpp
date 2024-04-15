@@ -6,19 +6,18 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/14 11:50:26 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/14 11:56:17 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/04/15 02:48:03 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Harl.hpp"
-
 
 Harl::Harl(){}
 
 Harl::~Harl(){}
 
 void Harl::debug(void) {
-  std::cout << "I love having extra baconfor my ";
+  std::cout << "I love having extra bacon for my ";
   std::cout << "7XL-double-cheese-triple-pickle-special";
   std::cout << "-ketchup burger. I really do!" << std::endl;
 }

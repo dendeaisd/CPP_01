@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/14 12:13:26 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/14 12:38:48 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/04/15 02:47:46 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ Harl::Harl(){}
 Harl::~Harl(){}
 
 void Harl::debug(void) {
-  std::cout << "[ DEBUG ]\nI love having extra baconfor my ";
+  std::cout << "[ DEBUG ]\nI love having extra bacon for my ";
   std::cout << "7XL-double-cheese-triple-pickle-special";
   std::cout << "-ketchup burger. I really do!" << std::endl;
 }
