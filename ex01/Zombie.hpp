@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/13 04:18:28 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/13 04:56:13 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/05/09 20:24:27 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,9 @@
 # include <string>
 
 class Zombie {
-  std::string name;
+
+ private:
+  std::string _name;
 
  public:
     Zombie(std::string zName);
