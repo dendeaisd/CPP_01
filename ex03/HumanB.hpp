@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/14 04:18:34 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/14 06:01:04 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/05/09 21:49:35 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,9 @@
 # include "Weapon.hpp"
 
 class HumanB {
-  std::string name;
-  Weapon* weapon;
+ private:
+  std::string _name;
+  Weapon*     _weapon;
 
  public:
     HumanB(const std::string& name);
