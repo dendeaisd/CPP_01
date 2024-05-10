@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/14 12:15:07 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/14 12:41:27 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/05/10 03:08:53 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int main(int ac, char **av)
 {
   if (ac != 2)
-    return (std::cout << "Usage: ./harl <level>/<string>" \
+    return (std::cout << "Usage: ./harlFilter <level>/<string>" \
             << std::endl, 1);
 
   Harl harl = Harl();

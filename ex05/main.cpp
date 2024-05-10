@@ -6,7 +6,7 @@
 /*   By: fvoicu <fvoicu@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/14 11:24:01 by fvoicu            #+#    #+#             */
-/*   Updated: 2024/04/14 11:56:12 by fvoicu           ###   ########.fr       */
+/*   Updated: 2024/05/10 03:04:22 by fvoicu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int main()
 {
   Harl harl;
-   
+
   std::cout << "Testing DEBUG level:" << std::endl;
   harl.complain("DEBUG");
 
